@@ -1,0 +1,73 @@
+.artist-profile {
+  width: 960px;
+  margin: auto;
+}
+.artist-profile-header {
+  background: url("../img/artist/cover-photo.jpg");
+  height: 330px;
+  opacity: 0.9;
+
+}
+.artist-profile-information {
+  padding-top: 30px;
+}
+.artist-profile-art {
+  background: url("../img/artist/profile-photo.jpg");
+  height: 200px;
+  width: 200px;
+  border: 1px solid #444;
+  float: left;
+  margin-left: 30px;
+  opacity: 0.9;
+
+}
+
+.artist-profile-stream {
+
+  margin-top: 10px;
+  background: #fff;
+  
+}
+.artist-profile-description {
+  float: left;
+  margin-left: 20px;
+  width: 500px;
+}
+
+.artist-profile-name {
+  color: #000;
+  background: #ebebeb;
+  padding: 5px;
+  font-size: 26px;
+}
+.artist-profile-bio {
+  color: #000;
+  background: #ebebeb;
+  padding: 5px;
+  margin-top: 20px;
+}
+.artist-profile-menu-container {
+  background: #fff;
+  border: 1px solid #ccc;
+  height: 28px;
+  padding-top: 10px;
+}
+.artist-profile-menu {
+  list-style: none;
+}
+.artist-profile-menu li {
+  float: left;
+} 
+.artist-profile-menu li a {
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 26px;
+}
+
+.artist-profile-menu li a:hover {
+  background: #39f;
+  color: #fff;
+}
+

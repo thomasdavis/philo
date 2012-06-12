@@ -1,0 +1,43 @@
+<style>
+  .login-container {
+    width: 960px;
+    margin: auto;
+    background: #fff;
+  }
+  .login-form-container {
+    padding: 20px;
+  }
+</style>
+<style>
+.thought {
+  display: block;
+  height:300px;
+  width: 400px;
+  padding: 20px;
+  background: #f0f0f0;
+  border: #fbfbfb;
+}
+.thoughts {
+  list-style: none;
+}
+.thoughts li {
+  padding: 20px;
+}
+</style>
+<div class="login-container">
+  <div class="login-form-container">
+   <p>Hello, <%= username %>. 
+<p>“I didn't choose the thug life, the thug life chose me.” 
+― Tupac Shakur</p>
+ <form class="post-thought">
+        <label for="">Thought</label>
+        <textarea class="thought" name="thought" type="text" required autofocus />
+        <br />
+        <input type="submit" id="submit" value="Post Thought" />
+
+    </form>
+    <ul class="thoughts">
+
+    </ul>
+  </div>
+</div>

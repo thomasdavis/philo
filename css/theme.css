@@ -1,0 +1,63 @@
+.ajax-loader {
+  background: url("../img/loaders/circle.gif");
+  width: 31px;
+  height: 31px;
+  margin: auto;
+  margin-top: 100px;
+}
+.white-ajax-loader {
+  background: url("../img/loaders/circle2.gif");
+  width: 31px;
+  height: 31px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+body {
+  background: #ebebeb;
+}
+.header {
+  color: #fff;
+  background: #000;
+  height: 40px;
+}
+.main-menu-container {
+  float: left;
+  width: 600px;
+}
+.main-menu {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+}
+.main-menu li {
+  float: left;
+  margin-left: 10px;
+}
+
+.logo {
+float: left;
+width: 200px;
+}
+
+.main-menu li a {
+  color: #ebebeb;
+  text-decoration: none;
+  padding: 5px;
+}
+.main-menu li a:hover {
+  color: #000;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.account-menu-container {
+  float: right;
+}
+.account-menu {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+}
