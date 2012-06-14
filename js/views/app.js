@@ -35,6 +35,7 @@ define([
       $.ajaxPrefilter( function( options, originalOptions, jqXHR ) {
         // Your server goes below
         options.url = 'http://sophia.nodejitsu.com' + options.url;
+        //options.url = 'http://localhost:8000' + options.url;
         //options.url = 'http://110.174.208.24:8000' + options.url;
         //options.url = 'http://budder.nodejitsu.com' + options.url;
       });
